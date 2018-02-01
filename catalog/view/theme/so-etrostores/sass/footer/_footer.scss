@@ -1,0 +1,33 @@
+footer .copyright a{
+	color: $linkColor !important;
+}
+
+.typefooter-1 .footer-middle .footer-links li a:hover{
+	color: $linkColor;
+}
+
+.typefooter-2 .box-footer .modcontent ul li a:hover,
+.typefooter-2 .block-policy .item .item-inner:hover .icon i,
+.typefooter-2 .block-policy .item .item-inner .content a:hover{
+	color: $linkColor;
+}
+.typefooter-2 .modcontent .socials-wrap ul li a:hover,
+.typefooter-2 .newsletter-footer2 .newsletter .block_content form.signup .subcribe button,
+.typefooter-2 .socials-wrap ul li a:hover{
+	background-color: $background;
+}
+
+
+
+.typefooter-3 .box-footer .modcontent ul li a:hover{
+	color: $linkColor;
+}
+.typefooter-3 .modcontent .socials-wrap ul li a:hover,
+.typefooter-3 .newsletter-footer2 .newsletter .block_content form.signup .subcribe button,
+.typefooter-3 .socials-wrap ul li a:hover{
+	background-color: $background;
+}
+
+.typefooter-3 .footer-middle .footer-links li a:hover{
+	color: $linkColor;
+}

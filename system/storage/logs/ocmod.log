@@ -1,0 +1,1315 @@
+2017-12-30 8:45:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: soconfig theme
+
+FILE: admin/controller/common/column_left.php
+CODE: $this->url->link('catalog/product'
+LINE: 56
+CODE: $design = array();
+LINE: 376
+----------------------------------------------------------------
+MOD: Simple Blog
+CODE: if ($report) {
+LINE: 1075
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']
+LINE: 113
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 43
+CODE: if ($url[0] == 'category_id') {
+LINE: 48
+CODE: $this->request->get['route'] = 'error/not_found'
+LINE: 70
+CODE: $this->request->get['route'] = 'information/information';
+LINE: 95
+CODE: } elseif ($key == 'path') {
+LINE: 139
+
+FILE: catalog/controller/common/header.php
+CODE: $categories = $this->model_catalog_category->getCategories(0);
+LINE: 160
+----------------------------------------------------------------
+MOD: soconfig theme
+
+FILE: catalog/controller/common/language.php
+CODE: $data['languages'] = array();
+LINE: 19
+
+FILE: catalog/controller/common/cart.php
+CODE: $this->load->language('common/cart');
+LINE: 14
+CODE: $this->load->language('common/header');
+LINE: 60
+CODE: $this->load->language('common/header');
+LINE: 71
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 34
+CODE: $category['top']
+LINE: 223
+LINE: 339
+
+FILE: catalog/controller/common/home.php
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 20
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 11
+CODE: return $this->load->view('common/footer', $data);
+LINE: 123
+
+FILE: catalog/controller/product/category.php
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 160
+CODE: $data['breadcrumbs'] = array();
+LINE: 50
+CODE: $data['products'][] = array(
+LINE: 317
+CODE: 'special'     => $special,
+LINE: 335
+CODE: $data['categories'] = array();
+LINE: 226
+CODE: $data['categories'][]
+LINE: 243
+CODE: $data['categories'][]
+LINE: 246
+CODE: $data['products'][]
+LINE: 334
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 235
+CODE: if ((float)$result['special'])
+LINE: 503
+CODE: 'special'     => $special,
+LINE: 531
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 295
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 299
+CODE: $data['thumb'] = ''
+LINE: 370
+CODE: $data['popup'] = ''
+LINE: 364
+CODE: $data['rating'] = (int)$product_info['rating'];
+LINE: 489
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 294
+CODE: $data['products'][] = array(
+LINE: 301
+CODE: 'special'     => $special,
+LINE: 312
+CODE: $data['products'][]
+LINE: 305
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 179
+CODE: $data['products'][] = array(
+LINE: 186
+CODE: 'special'     => $special,
+LINE: 197
+CODE: $data['products'][]
+LINE: 190
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 257
+CODE: $data['products'][] = array(
+LINE: 264
+CODE: 'special'     => $special,
+LINE: 275
+CODE: $data['products'][]
+LINE: 268
+
+FILE: catalog/controller/extension/module/so_filter_shop_by.php
+CODE: $footer 			= '';
+LINE: 453
+CODE: $data['products'] 	= array();
+LINE: 300
+CODE: $data['products'][] = array(
+LINE: 386
+CODE: $data['products'][] = array(
+LINE: 395
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/error/not_found.php
+CODE: $data['heading_title']
+LINE: 38
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $data['products'][] = array(
+LINE: 101
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: 'special'     => $special,
+LINE: 119
+
+FILE: system/engine/front.php
+CODE: while ($action instanceof Action) {
+LINE: 30
+
+FILE: admin/controller/design/layout.php
+CODE: design/layout_form
+LINE: 433
+
+FILE: admin/view/template/setting/store_list.tpl
+CODE: $store['name']
+LINE: 51
+----------------------------------------------------------------
+MOD: Bug Fixing OC-2.3.0.2
+
+FILE: admin/controller/common/filemanager.php
+CODE: if (substr(str_replace('\\', '/', realpath($directory . '/' . $filter_name)), 0, strlen(DIR_IMAGE . 'catalog')) == DIR_IMAGE . 'catalog') {
+LINE: 38
+CODE: 'name' => implode(' ', $name),
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: config_mail_alert_email
+LINE: 1165
+----------------------------------------------------------------
+MOD: Installation without FTP settings
+
+FILE: admin/controller/extension/installer.php
+CODE: $data['button_continue'] =
+LINE: 37
+CODE: 'extension/installer/ftp'
+LINE: 136
+CODE: function ftp(
+LINE: 301
+CODE: if (!$this->config->get('config_ftp_status')
+LINE: 319
+
+FILE: admin/language/en-gb/extension/installer.php
+CODE: $_['text_clear']
+LINE: 17
+
+FILE: admin/view/template/extension/installer.tpl
+CODE: <form class="form
+LINE: 34
+CODE: timer = setInterval(
+LINE: 87
+CODE: n next()
+LINE: 156
+CODE: 'path=' + data.path
+LINE: 167
+----------------------------------------------------------------
+MOD: OCMod Editor
+
+FILE: admin/controller/extension/modification.php
+CODE: $data['refresh'] = $this->url->link('extension/modification/refresh', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 656
+CODE: $data['modifications'][] = array(
+LINE: 678
+CODE: $data['tab_log'] = $this->language->get('tab_log');
+LINE: 720
+CODE: $this->response->redirect($this->url->link('extension/modification', 'token=' . $this->session->data['token'] . $url, true));
+LINE: 510
+
+FILE: admin/view/template/extension/modification.tpl
+CODE: <div class="pull-right">
+LINE: 5
+CODE: <?php if (!$modification['enabled']) { ?>
+LINE: 98
+----------------------------------------------------------------
+MOD: So Countdown Popup
+CODE: return $this->load->view('common/footer', $data);
+LINE: 126
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/so-etrostores/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+LINE: 89
+
+FILE: catalog/view/theme/so-mobile/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: So Mobile
+CODE: public function index()
+LINE: 7
+CODE: $this->response->setOutput($this->load->view('common/home', $data));
+LINE: 27
+CODE: $data['language'] = $this->load->controller('common/language')
+LINE: 380
+CODE: return $this->load->view('common/footer', $data);
+LINE: 184
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 173
+CODE: $this->load->model('tool/image')
+LINE: 10
+CODE: $this->load->model('tool/image')
+LINE: 8
+CODE: $this->load->model('tool/image')
+LINE: 8
+LINE: 72
+CODE: $this->document->addScript('catalog/view/javascript/jquery/datetimepicker/moment.js');
+LINE: 306
+----------------------------------------------------------------
+MOD: So OnePage Checkout
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: class ControllerCheckoutCheckout extends Controller {
+LINE: 1136
+CODE: $data['breadcrumbs'] = array();
+LINE: 1186
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 1553
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 1553
+----------------------------------------------------------------
+MOD: So Social Login
+
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="well">
+LINE: 24
+LINE: 31
+CODE: <input type="submit" value="<?php echo $button_login; ?>" class="btn btn-primary" />
+LINE: 47
+CODE: </form>
+LINE: 119
+CODE: <?php echo $footer; ?>
+LINE: 142
+
+FILE: catalog/view/theme/so-mobile/template/account/login.tpl
+CODE: <div class="well">
+LINE: 32
+LINE: 54
+CODE: <input type="submit" value="<?php echo $button_login; ?>" class="btn btn-primary" />
+LINE: 46
+CODE: </form>
+LINE: 118
+CODE: <?php echo $footer; ?>
+LINE: 155
+
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: <input type="button" value="<?php echo $button_login; ?>" id="button-login" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+LINE: 38
+
+FILE: catalog/view/theme/so-mobile/template/checkout/login.tpl
+CODE: <input type="button" value="<?php echo $button_login; ?>" id="button-login" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+LINE: 38
+
+FILE: catalog/controller/checkout/login.php
+CODE: $data['forgotten'] = $this->url->link('account/forgotten', '', true);
+LINE: 37
+CODE: $data['forgotten'] = $this->url->link('account/forgotten', '', true);
+LINE: 107
+LINE: 1567
+
+FILE: catalog/controller/account/login.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 179
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 280
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <table id="module-column-right" class="table table-striped table-bordered table-hover">
+LINE: 351
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 479
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 491
+
+FILE: admin/language/ar/design/layout.php
+CODE: // Text
+LINE: 14
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 11
+CODE: protected function getForm() {
+LINE: 264
+
+FILE: catalog/model/account/customer.php
+CODE: $customer_id = $this->db->getLastId();
+LINE: 21
+CODE: $this->load->language('mail/customer');
+LINE: 34
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 130
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/so-etrostores/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+LINE: 316
+
+FILE: catalog/view/theme/so-mobile/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: So Tools
+CODE: return $this->load->view('common/footer', $data);
+LINE: 187
+CODE: </footer>
+LINE: 46
+CODE: </footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: </footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $this->load->model('catalog/manufacturer');
+LINE: 87
+----------------------------------------------------------------
+2017-12-30 8:47:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: soconfig theme
+
+FILE: admin/controller/common/column_left.php
+CODE: $this->url->link('catalog/product'
+LINE: 56
+CODE: $design = array();
+LINE: 376
+----------------------------------------------------------------
+MOD: Simple Blog
+CODE: if ($report) {
+LINE: 1075
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']
+LINE: 113
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 43
+CODE: if ($url[0] == 'category_id') {
+LINE: 48
+CODE: $this->request->get['route'] = 'error/not_found'
+LINE: 70
+CODE: $this->request->get['route'] = 'information/information';
+LINE: 95
+CODE: } elseif ($key == 'path') {
+LINE: 139
+
+FILE: catalog/controller/common/header.php
+CODE: $categories = $this->model_catalog_category->getCategories(0);
+LINE: 160
+----------------------------------------------------------------
+MOD: soconfig theme
+
+FILE: catalog/controller/common/language.php
+CODE: $data['languages'] = array();
+LINE: 19
+
+FILE: catalog/controller/common/cart.php
+CODE: $this->load->language('common/cart');
+LINE: 14
+CODE: $this->load->language('common/header');
+LINE: 60
+CODE: $this->load->language('common/header');
+LINE: 71
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 34
+CODE: $category['top']
+LINE: 223
+LINE: 339
+
+FILE: catalog/controller/common/home.php
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 20
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 11
+CODE: return $this->load->view('common/footer', $data);
+LINE: 123
+
+FILE: catalog/controller/product/category.php
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 160
+CODE: $data['breadcrumbs'] = array();
+LINE: 50
+CODE: $data['products'][] = array(
+LINE: 317
+CODE: 'special'     => $special,
+LINE: 335
+CODE: $data['categories'] = array();
+LINE: 226
+CODE: $data['categories'][]
+LINE: 243
+CODE: $data['categories'][]
+LINE: 246
+CODE: $data['products'][]
+LINE: 334
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 235
+CODE: if ((float)$result['special'])
+LINE: 503
+CODE: 'special'     => $special,
+LINE: 531
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 295
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 299
+CODE: $data['thumb'] = ''
+LINE: 370
+CODE: $data['popup'] = ''
+LINE: 364
+CODE: $data['rating'] = (int)$product_info['rating'];
+LINE: 489
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 294
+CODE: $data['products'][] = array(
+LINE: 301
+CODE: 'special'     => $special,
+LINE: 312
+CODE: $data['products'][]
+LINE: 305
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 179
+CODE: $data['products'][] = array(
+LINE: 186
+CODE: 'special'     => $special,
+LINE: 197
+CODE: $data['products'][]
+LINE: 190
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 257
+CODE: $data['products'][] = array(
+LINE: 264
+CODE: 'special'     => $special,
+LINE: 275
+CODE: $data['products'][]
+LINE: 268
+
+FILE: catalog/controller/extension/module/so_filter_shop_by.php
+CODE: $footer 			= '';
+LINE: 453
+CODE: $data['products'] 	= array();
+LINE: 300
+CODE: $data['products'][] = array(
+LINE: 386
+CODE: $data['products'][] = array(
+LINE: 395
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/error/not_found.php
+CODE: $data['heading_title']
+LINE: 38
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $data['products'][] = array(
+LINE: 101
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: 'special'     => $special,
+LINE: 119
+
+FILE: system/engine/front.php
+CODE: while ($action instanceof Action) {
+LINE: 30
+
+FILE: admin/controller/design/layout.php
+CODE: design/layout_form
+LINE: 433
+
+FILE: admin/view/template/setting/store_list.tpl
+CODE: $store['name']
+LINE: 51
+----------------------------------------------------------------
+MOD: Bug Fixing OC-2.3.0.2
+
+FILE: admin/controller/common/filemanager.php
+CODE: if (substr(str_replace('\\', '/', realpath($directory . '/' . $filter_name)), 0, strlen(DIR_IMAGE . 'catalog')) == DIR_IMAGE . 'catalog') {
+LINE: 38
+CODE: 'name' => implode(' ', $name),
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: config_mail_alert_email
+LINE: 1165
+----------------------------------------------------------------
+MOD: Installation without FTP settings
+
+FILE: admin/controller/extension/installer.php
+CODE: $data['button_continue'] =
+LINE: 37
+CODE: 'extension/installer/ftp'
+LINE: 136
+CODE: function ftp(
+LINE: 301
+CODE: if (!$this->config->get('config_ftp_status')
+LINE: 319
+
+FILE: admin/language/en-gb/extension/installer.php
+CODE: $_['text_clear']
+LINE: 17
+
+FILE: admin/view/template/extension/installer.tpl
+CODE: <form class="form
+LINE: 34
+CODE: timer = setInterval(
+LINE: 87
+CODE: n next()
+LINE: 156
+CODE: 'path=' + data.path
+LINE: 167
+----------------------------------------------------------------
+MOD: OCMod Editor
+
+FILE: admin/controller/extension/modification.php
+CODE: $data['refresh'] = $this->url->link('extension/modification/refresh', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 656
+CODE: $data['modifications'][] = array(
+LINE: 678
+CODE: $data['tab_log'] = $this->language->get('tab_log');
+LINE: 720
+CODE: $this->response->redirect($this->url->link('extension/modification', 'token=' . $this->session->data['token'] . $url, true));
+LINE: 510
+
+FILE: admin/view/template/extension/modification.tpl
+CODE: <div class="pull-right">
+LINE: 5
+CODE: <?php if (!$modification['enabled']) { ?>
+LINE: 98
+----------------------------------------------------------------
+MOD: So Countdown Popup
+CODE: return $this->load->view('common/footer', $data);
+LINE: 126
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/so-etrostores/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+LINE: 89
+
+FILE: catalog/view/theme/so-mobile/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: So Mobile
+CODE: public function index()
+LINE: 7
+CODE: $this->response->setOutput($this->load->view('common/home', $data));
+LINE: 27
+CODE: $data['language'] = $this->load->controller('common/language')
+LINE: 380
+CODE: return $this->load->view('common/footer', $data);
+LINE: 184
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 173
+CODE: $this->load->model('tool/image')
+LINE: 10
+CODE: $this->load->model('tool/image')
+LINE: 8
+CODE: $this->load->model('tool/image')
+LINE: 8
+LINE: 72
+CODE: $this->document->addScript('catalog/view/javascript/jquery/datetimepicker/moment.js');
+LINE: 306
+----------------------------------------------------------------
+MOD: So Mobile
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 28
+CODE: $this->response->setOutput($this->load->view('common/home', $data));
+LINE: 31
+CODE: $data['language'] = $this->load->controller('common/language')
+LINE: 393
+CODE: return $this->load->view('common/footer', $data);
+LINE: 242
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 174
+CODE: $this->load->model('tool/image')
+LINE: 10
+CODE: $this->load->model('tool/image')
+LINE: 8
+CODE: $this->load->model('tool/image')
+LINE: 8
+LINE: 73
+CODE: $this->document->addScript('catalog/view/javascript/jquery/datetimepicker/moment.js');
+LINE: 312
+CODE: $footer 			= '';
+LINE: 458
+----------------------------------------------------------------
+MOD: So OnePage Checkout
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: class ControllerCheckoutCheckout extends Controller {
+LINE: 1136
+CODE: $data['breadcrumbs'] = array();
+LINE: 1186
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 1553
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 1553
+----------------------------------------------------------------
+MOD: So Social Login
+
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="well">
+LINE: 24
+LINE: 31
+CODE: <input type="submit" value="<?php echo $button_login; ?>" class="btn btn-primary" />
+LINE: 47
+CODE: </form>
+LINE: 119
+CODE: <?php echo $footer; ?>
+LINE: 142
+
+FILE: catalog/view/theme/so-mobile/template/account/login.tpl
+CODE: <div class="well">
+LINE: 32
+LINE: 54
+CODE: <input type="submit" value="<?php echo $button_login; ?>" class="btn btn-primary" />
+LINE: 46
+CODE: </form>
+LINE: 118
+CODE: <?php echo $footer; ?>
+LINE: 155
+
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: <input type="button" value="<?php echo $button_login; ?>" id="button-login" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+LINE: 38
+
+FILE: catalog/view/theme/so-mobile/template/checkout/login.tpl
+CODE: <input type="button" value="<?php echo $button_login; ?>" id="button-login" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+LINE: 38
+
+FILE: catalog/controller/checkout/login.php
+CODE: $data['forgotten'] = $this->url->link('account/forgotten', '', true);
+LINE: 37
+CODE: $data['forgotten'] = $this->url->link('account/forgotten', '', true);
+LINE: 107
+LINE: 1567
+
+FILE: catalog/controller/account/login.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 179
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 280
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <table id="module-column-right" class="table table-striped table-bordered table-hover">
+LINE: 351
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 479
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 491
+
+FILE: admin/language/ar/design/layout.php
+CODE: // Text
+LINE: 14
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 11
+CODE: protected function getForm() {
+LINE: 264
+
+FILE: catalog/model/account/customer.php
+CODE: $customer_id = $this->db->getLastId();
+LINE: 21
+CODE: $this->load->language('mail/customer');
+LINE: 34
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 130
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/so-etrostores/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+LINE: 316
+
+FILE: catalog/view/theme/so-mobile/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: So Tools
+CODE: return $this->load->view('common/footer', $data);
+LINE: 245
+CODE: </footer>
+LINE: 46
+CODE: </footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: </footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $this->load->model('catalog/manufacturer');
+LINE: 87
+----------------------------------------------------------------
+2017-12-30 8:54:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: soconfig theme
+
+FILE: admin/controller/common/column_left.php
+CODE: $this->url->link('catalog/product'
+LINE: 56
+CODE: $design = array();
+LINE: 376
+----------------------------------------------------------------
+MOD: Simple Blog
+CODE: if ($report) {
+LINE: 1075
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']
+LINE: 113
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 43
+CODE: if ($url[0] == 'category_id') {
+LINE: 48
+CODE: $this->request->get['route'] = 'error/not_found'
+LINE: 70
+CODE: $this->request->get['route'] = 'information/information';
+LINE: 95
+CODE: } elseif ($key == 'path') {
+LINE: 139
+
+FILE: catalog/controller/common/header.php
+CODE: $categories = $this->model_catalog_category->getCategories(0);
+LINE: 160
+----------------------------------------------------------------
+MOD: soconfig theme
+
+FILE: catalog/controller/common/language.php
+CODE: $data['languages'] = array();
+LINE: 19
+
+FILE: catalog/controller/common/cart.php
+CODE: $this->load->language('common/cart');
+LINE: 14
+CODE: $this->load->language('common/header');
+LINE: 60
+CODE: $this->load->language('common/header');
+LINE: 71
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 34
+CODE: $category['top']
+LINE: 223
+LINE: 339
+
+FILE: catalog/controller/common/home.php
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 20
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 11
+CODE: return $this->load->view('common/footer', $data);
+LINE: 123
+
+FILE: catalog/controller/product/category.php
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 160
+CODE: $data['breadcrumbs'] = array();
+LINE: 50
+CODE: $data['products'][] = array(
+LINE: 317
+CODE: 'special'     => $special,
+LINE: 335
+CODE: $data['categories'] = array();
+LINE: 226
+CODE: $data['categories'][]
+LINE: 243
+CODE: $data['categories'][]
+LINE: 246
+CODE: $data['products'][]
+LINE: 334
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 235
+CODE: if ((float)$result['special'])
+LINE: 503
+CODE: 'special'     => $special,
+LINE: 531
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 295
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 299
+CODE: $data['thumb'] = ''
+LINE: 370
+CODE: $data['popup'] = ''
+LINE: 364
+CODE: $data['rating'] = (int)$product_info['rating'];
+LINE: 489
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 294
+CODE: $data['products'][] = array(
+LINE: 301
+CODE: 'special'     => $special,
+LINE: 312
+CODE: $data['products'][]
+LINE: 305
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 179
+CODE: $data['products'][] = array(
+LINE: 186
+CODE: 'special'     => $special,
+LINE: 197
+CODE: $data['products'][]
+LINE: 190
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 257
+CODE: $data['products'][] = array(
+LINE: 264
+CODE: 'special'     => $special,
+LINE: 275
+CODE: $data['products'][]
+LINE: 268
+
+FILE: catalog/controller/extension/module/so_filter_shop_by.php
+CODE: $footer 			= '';
+LINE: 453
+CODE: $data['products'] 	= array();
+LINE: 300
+CODE: $data['products'][] = array(
+LINE: 386
+CODE: $data['products'][] = array(
+LINE: 395
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/error/not_found.php
+CODE: $data['heading_title']
+LINE: 38
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: $data['products'][] = array(
+LINE: 115
+CODE: 'special'     => $special,
+LINE: 126
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $data['products'][] = array(
+LINE: 101
+CODE: $data['products'][] = array(
+LINE: 108
+CODE: 'special'     => $special,
+LINE: 119
+
+FILE: system/engine/front.php
+CODE: while ($action instanceof Action) {
+LINE: 30
+
+FILE: admin/controller/design/layout.php
+CODE: design/layout_form
+LINE: 433
+
+FILE: admin/view/template/setting/store_list.tpl
+CODE: $store['name']
+LINE: 51
+----------------------------------------------------------------
+MOD: Bug Fixing OC-2.3.0.2
+
+FILE: admin/controller/common/filemanager.php
+CODE: if (substr(str_replace('\\', '/', realpath($directory . '/' . $filter_name)), 0, strlen(DIR_IMAGE . 'catalog')) == DIR_IMAGE . 'catalog') {
+LINE: 38
+CODE: 'name' => implode(' ', $name),
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: config_mail_alert_email
+LINE: 1165
+----------------------------------------------------------------
+MOD: Installation without FTP settings
+
+FILE: admin/controller/extension/installer.php
+CODE: $data['button_continue'] =
+LINE: 37
+CODE: 'extension/installer/ftp'
+LINE: 136
+CODE: function ftp(
+LINE: 301
+CODE: if (!$this->config->get('config_ftp_status')
+LINE: 319
+
+FILE: admin/language/en-gb/extension/installer.php
+CODE: $_['text_clear']
+LINE: 17
+
+FILE: admin/view/template/extension/installer.tpl
+CODE: <form class="form
+LINE: 34
+CODE: timer = setInterval(
+LINE: 87
+CODE: n next()
+LINE: 156
+CODE: 'path=' + data.path
+LINE: 167
+----------------------------------------------------------------
+MOD: OCMod Editor
+
+FILE: admin/controller/extension/modification.php
+CODE: $data['refresh'] = $this->url->link('extension/modification/refresh', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 656
+CODE: $data['modifications'][] = array(
+LINE: 678
+CODE: $data['tab_log'] = $this->language->get('tab_log');
+LINE: 720
+CODE: $this->response->redirect($this->url->link('extension/modification', 'token=' . $this->session->data['token'] . $url, true));
+LINE: 510
+
+FILE: admin/view/template/extension/modification.tpl
+CODE: <div class="pull-right">
+LINE: 5
+CODE: <?php if (!$modification['enabled']) { ?>
+LINE: 98
+----------------------------------------------------------------
+MOD: So Countdown Popup
+CODE: return $this->load->view('common/footer', $data);
+LINE: 126
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/so-etrostores/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+LINE: 89
+
+FILE: catalog/view/theme/so-mobile/template/common/footer.tpl
+CODE: <div id="popup-countdown"></div>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: So Mobile
+CODE: public function index()
+LINE: 7
+CODE: $this->response->setOutput($this->load->view('common/home', $data));
+LINE: 27
+CODE: $data['language'] = $this->load->controller('common/language')
+LINE: 380
+CODE: return $this->load->view('common/footer', $data);
+LINE: 184
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 173
+CODE: $this->load->model('tool/image')
+LINE: 10
+CODE: $this->load->model('tool/image')
+LINE: 8
+CODE: $this->load->model('tool/image')
+LINE: 8
+LINE: 72
+CODE: $this->document->addScript('catalog/view/javascript/jquery/datetimepicker/moment.js');
+LINE: 306
+----------------------------------------------------------------
+MOD: So Mobile
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 28
+CODE: $this->response->setOutput($this->load->view('common/home', $data));
+LINE: 31
+CODE: $data['language'] = $this->load->controller('common/language')
+LINE: 393
+CODE: return $this->load->view('common/footer', $data);
+LINE: 242
+CODE: $data['heading_title'] = $category_info['name']
+LINE: 174
+CODE: $this->load->model('tool/image')
+LINE: 10
+CODE: $this->load->model('tool/image')
+LINE: 8
+CODE: $this->load->model('tool/image')
+LINE: 8
+LINE: 73
+CODE: $this->document->addScript('catalog/view/javascript/jquery/datetimepicker/moment.js');
+LINE: 312
+CODE: $footer 			= '';
+LINE: 458
+----------------------------------------------------------------
+MOD: So OnePage Checkout
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: class ControllerCheckoutCheckout extends Controller {
+LINE: 1136
+CODE: $data['breadcrumbs'] = array();
+LINE: 1186
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 1553
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 1553
+----------------------------------------------------------------
+MOD: So Social Login
+
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="well">
+LINE: 24
+LINE: 31
+CODE: <input type="submit" value="<?php echo $button_login; ?>" class="btn btn-primary" />
+LINE: 47
+CODE: </form>
+LINE: 119
+CODE: <?php echo $footer; ?>
+LINE: 142
+
+FILE: catalog/view/theme/so-mobile/template/account/login.tpl
+CODE: <div class="well">
+LINE: 32
+LINE: 54
+CODE: <input type="submit" value="<?php echo $button_login; ?>" class="btn btn-primary" />
+LINE: 46
+CODE: </form>
+LINE: 118
+CODE: <?php echo $footer; ?>
+LINE: 155
+
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: <input type="button" value="<?php echo $button_login; ?>" id="button-login" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+LINE: 38
+
+FILE: catalog/view/theme/so-mobile/template/checkout/login.tpl
+CODE: <input type="button" value="<?php echo $button_login; ?>" id="button-login" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+LINE: 38
+
+FILE: catalog/controller/checkout/login.php
+CODE: $data['forgotten'] = $this->url->link('account/forgotten', '', true);
+LINE: 37
+CODE: $data['forgotten'] = $this->url->link('account/forgotten', '', true);
+LINE: 107
+LINE: 1567
+
+FILE: catalog/controller/account/login.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 179
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 280
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <table id="module-column-right" class="table table-striped table-bordered table-hover">
+LINE: 351
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 479
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 491
+
+FILE: admin/language/ar/design/layout.php
+CODE: // Text
+LINE: 14
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 11
+CODE: protected function getForm() {
+LINE: 264
+
+FILE: catalog/model/account/customer.php
+CODE: $customer_id = $this->db->getLastId();
+LINE: 21
+CODE: $this->load->language('mail/customer');
+LINE: 34
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 130
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/so-etrostores/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+LINE: 316
+
+FILE: catalog/view/theme/so-mobile/template/common/header.tpl
+CODE: <div class="sociallogin"></div>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: So Tools
+CODE: return $this->load->view('common/footer', $data);
+LINE: 245
+CODE: </footer>
+LINE: 46
+CODE: </footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: </footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $this->load->model('catalog/manufacturer');
+LINE: 87
+----------------------------------------------------------------

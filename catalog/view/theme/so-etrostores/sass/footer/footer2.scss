@@ -1,0 +1,272 @@
+
+//** simple and lightweight mixin library for Sass **
+//-- url : http://bourbon.io/docs ---
+@import 'bourbon/bourbon';
+
+//** Mixins for Rem Font Sizing **
+//-- url : http://hugogiraudel.com/2013/03/18/ultimate-rem-mixin/
+@import 'utilities/rem';
+
+//** Variables for responsive design in bootstrap with sass **
+//-- url : https://gist.github.com/webinfinita/11407836
+@import 'utilities/bootstrap_breakpoints';
+
+//** Makes supporting both left-to-right (LTR) and right-to-left (RTL) easy.**
+//-- url : https://github.com/tysonmatanich/directional-scss
+@import 'utilities/directional';
+
+//Mixins utilities
+@import 'utilities/theme_variables';
+@import 'utilities/utilities';
+
+/* ================================================================================ */
+
+.footer-container{
+  margin-top: 20px;
+}
+.common-home .typefooter-2{
+  margin-top: 0px;
+}
+.typefooter-2{
+  margin-top: 30px;
+  background-color: #1f1f1f;
+  color: #a8a8a8;
+
+  /* GENERAL */
+  .module .modtitle{
+        color: #fff;
+        @include rem(font-size,18px);
+        line-height: 20px;
+        margin-bottom: 32px !important;
+        font-weight: 700;
+        text-transform: uppercase;   
+  }
+  .box-footer{    
+    .modcontent{
+      ul{
+        li{                          
+              a{
+                border: 0 none;
+                color: #a8a8a8;
+                @include rem(font-size,12px);
+                padding: 0;       
+                font-weight: 400;  
+                line-height: 30px;
+                &:hover{
+                  //color: $linkColor;
+                } 
+              }       
+            }
+      }
+    }
+    &.box-information,
+    &.box-service{
+      padding-left: 0;
+    }
+  }
+
+  .block-policy{
+    border-bottom: 1px solid #2d2d2d;
+    padding-top: 17px;
+    margin-bottom: 23px;
+    .item{
+      .item-inner{
+        padding: 30px 15px;
+        .icon{
+          font-size: 26px;
+          color: #a8a8a8;
+          float: $left;
+          margin-#{$right}: 15px;
+          margin-top: 8px;
+        }
+        .content{
+          a{
+            font-size: 14px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            
+          }
+          p{
+            color: #b3b3b3;
+          }
+        }
+      }
+    }
+  }
+
+  .box-contact{
+    ul{
+      li{
+        line-height: 30px;
+      }
+    }
+  }
+  .newsletter-footer2{
+    margin-top: 0px;
+    .newsletter{
+      .title-block{
+        
+        .page-heading{
+          color: #fff;
+          @include rem(font-size,18px);
+          line-height: 20px;
+          margin-bottom: 34px !important;
+          font-weight: 700;
+          text-transform: uppercase;   
+        }
+        .promotext{
+          font-size: 12px;
+
+        }
+      }
+      .block_content{
+        form.signup{
+          display: block;
+          margin-top: 11px;
+          .form-group{
+            .input-box{
+              background-color: #fff;  
+              vertical-align: top;
+              padding-#{$right}: 120px;
+            }
+            .subcribe{
+              position: absolute;
+              top: 0;
+              #{$right}: 0;
+            }
+
+            #txtemail{
+              height: 42px;
+              line-height: 42px;
+              width: 100%;
+              box-shadow: none;
+              padding: side-values(0 0 0 15px);
+              border: none;           
+              background-color: #fff;
+              font-weight: 300;
+              &::-moz-placeholder {
+                      color: #b3b3b3;
+                        opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+                    }
+                    &:-ms-input-placeholder { color: #b3b3b3; } // Internet Explorer 10+
+                    &::-webkit-input-placeholder  { color: #b3b3b3; } // Safari and Chrome
+                      &:focus{
+                          z-index: 0;
+                      }
+            }
+          }
+
+          .subcribe button{           
+            border: 0 none;
+            color: #222;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 2px;
+            height: 42px;
+            line-height: 42px;
+            padding: 0 17px;    
+            text-transform: uppercase;
+            &:hover{
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .apps{
+    margin-top: 30px;
+    li{
+      float: $left;
+      margin-#{$right}: 10px;
+      a:hover{
+        img{
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  .modcontent .socials-wrap{
+      display: inline-block;
+      margin-top: 50px;
+      ul{
+        li{
+            float: $left;
+            margin-#{$right}: 10px;
+          a{
+              background-color: #fff;
+              color: #a8a8a8;
+              display: inline-block;
+              font-size: 18px !important;
+              height: 35px;
+              line-height: 35px;
+              text-align: center;
+              width: 35px;
+              @include transition(all 0.2s ease-in-out 0s);
+              &:hover{
+                color: #fff;
+              }
+          }
+        }
+      }
+  }
+
+  .app-block{
+    .title-footer{
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    ul{
+      list-style: none;
+      display: table-cell;
+      vertical-align: middle;
+      padding-#{$left}: 30px;
+
+      li{
+        float: $left;
+        margin-#{$right}: 10px;
+        margin-bottom: 0;
+
+        &:last-child{
+          margin-#{$right}: 0;
+        }
+      }
+    }
+  }
+
+
+  .footer-center{
+    
+  }
+  .footer-top{
+    
+    padding-bottom: 44px;
+  }
+  /* FOOTER BOTTOM */
+  .footer-bottom{
+      color: #fff;
+      
+      text-align: center;
+      > .container{
+        border-top: 1px solid #2d2d2d;
+        padding: 23px 0 30px 0;
+      }
+      a {color: #fff;}
+      .copyright{
+          margin-top: 12px;
+          font-size: 12px;
+      }
+
+      .footer-payment{
+  
+      }
+
+  }
+}

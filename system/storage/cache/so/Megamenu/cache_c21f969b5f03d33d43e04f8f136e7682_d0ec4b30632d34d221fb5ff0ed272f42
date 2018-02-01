@@ -1,0 +1,139 @@
+                       535102427<div class="responsive megamenu-style-dev ">
+	<div class="cl-padding">		<nav class="navbar-default">
+	<div class=" container-megamenu  vertical ">
+				<div id="menuHeading" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+			<div class="megamenuToogle-wrapper hidden-sm hidden-xs">
+				<div class="megamenuToogle-pattern">
+					<div class="container">
+							<div><span></span><span></span><span></span></div>
+							Categories					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar-header">
+			<span class="title-navbar hidden-lg hidden-md">Categories</span>
+			<button type="button" id="show-verticalmenu" data-toggle="collapse"  class="navbar-toggle">
+				<!-- <span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> -->
+				<i class="fa fa-bars"></i>
+				<span>Categories</span>
+			</button>
+		</div>
+		
+					<div class="vertical-wrapper" aria-labelledby="menuHeading">
+		
+							<span id="remove-verticalmenu" class="fa fa-times"></span>
+			
+			<div class="megamenu-pattern">
+					<!-- <div class="container"> -->
+					<ul class="megamenu"
+					data-transition="slide" data-animationtime="300">
+
+						
+						<li class='item-vertical style1 with-sub-menu hover' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=33' class='clearfix' >
+										<span><strong>
+											<i class='icon icon1'></i>Smartphone
+										</strong></span>
+										 <span class='label'> </span>
+										<b class='fa fa-angle-right' ></b>
+										</a><div class="sub-menu" data-subwidth="80" ><div class="content"><div class="row"><div class="col-sm-8"><div class="categories "><div class="row"><div class="col-sm-6 static-menu"><div class="menu"><ul><li><a href="http://saad.local/index.php?route=product/category&amp;path=25" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25';" class="main-menu">Components</a><ul><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_28_35" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_28_35';">test 1</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_28" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_28';">Monitors</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_29" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_29';">Mice and Trackballs</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_30" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_30';">Printers</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_28_36" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_28_36';">test 2</a></li></ul></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=34" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=34';" class="main-menu">MP3 Players</a><ul><li><a href="http://saad.local/index.php?route=product/category&amp;path=34_43" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=34_43';">test 11</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=34_47" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=34_47';">test 15</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=34_48" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=34_48';">test 16</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=34_55" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=34_55';">test 23</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=34_55" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=34_55';">test 23</a></li></ul></li></ul></div></div><div class="col-sm-6 static-menu"><div class="menu"><ul><li><a href="http://saad.local/index.php?route=product/category&amp;path=17" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=17';" class="main-menu">Software</a><ul></ul></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=57" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=57';" class="main-menu">Tablets</a><ul></ul></li></ul></div></div></div></div></div><div class="col-sm-4"><div class="html "></div></div></div></div></div></li>
+<li class='item-vertical' ><p class='close-menu'></p><a href='' class='clearfix' >
+										<span><strong>
+											<i class='icon icon2'></i>Electronic
+										</strong></span>
+										 <span class='label'> </span>
+										</a></li>
+<li class='item-vertical item-style3' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=33' class='clearfix' >
+										<span><strong>
+											<i class='icon icon3'></i>Computer
+										</strong></span>
+										 <span class='label'> </span>
+										</a></li>
+<li class='item-vertical item-style2 with-sub-menu hover' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=33' class='clearfix' >
+										<span><strong>
+											<i class='icon icon4'></i>Laptop &amp; Notebook
+										</strong></span>
+										 <span class='label'> </span>
+										<b class='fa fa-angle-right' ></b>
+										</a><div class="sub-menu" data-subwidth="100" ><div class="content"><div class="row"><div class="col-sm-4"><div class="link "><img src="http://saad.local/image/catalog/menu/megabanner/v-banner4.jpg" alt="" style="width: 100%;"></div></div><div class="col-sm-4"><div class="link "><img src="http://saad.local/image/catalog/menu/megabanner/v-banner5.jpg" alt="" style="width: 100%;"></div></div><div class="col-sm-4"><div class="link "><img src="http://saad.local/image/catalog/menu/megabanner/v-banner6.jpg" alt="" style="width: 100%;"></div></div></div><div class="border"></div><div class="row"><div class="col-sm-4"><ul class="subcategory subcate-col"><li><a href="http://saad.local/index.php?route=product/category&amp;path=84" class="title-submenu subcate-col"></a><div class="row"></div></li></ul></div><div class="col-sm-4"><ul class="subcategory subcate-col"><li><a href="http://saad.local/index.php?route=product/category&amp;path=57" class="title-submenu subcate-col">Tablets</a><div class="row"></div></li></ul></div><div class="col-sm-4"><ul class="subcategory subcate-col"><li><a href="http://saad.local/index.php?route=product/category&amp;path=25" class="title-submenu subcate-col">Components</a><div class="row"><div class="col-sm-12 hover-menu"><div class="menu"><ul><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_29" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_29';" class="main-menu">Mice and Trackballs</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_28" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_28';" class="main-menu">Monitors</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_30" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_30';" class="main-menu">Printers</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_31" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_31';" class="main-menu">Scanners</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_32" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_32';" class="main-menu">Web Cameras</a></li></ul></div></div></div></li></ul></div></div></div></div></li>
+<li class='item-vertical css-menu with-sub-menu hover' ><p class='close-menu'></p><a href='' class='clearfix' >
+										<span><strong>
+											<i class='icon icon5'></i>Camera
+										</strong></span>
+										 <span class='label'> </span>
+										<b class='fa fa-angle-right' ></b>
+										</a><div class="sub-menu" style="width:250px"><div class="content"><div class="row"><div class="col-sm-12"><div class="categories "><div class="row"><div class="col-sm-12 hover-menu"><div class="menu"><ul><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_31" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_31';" class="main-menu">Scanners</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=34" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=34';" class="main-menu">MP3 Players</a></li><li><a href="http://saad.local/index.php?route=product/category&amp;path=25_28" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=25_28';" class="main-menu">Monitors<b class="fa fa-angle-right"></b></a><ul><li><a href="http://saad.local/index.php?route=product/category&amp;path=18" onclick="window.location = 'http://saad.local/index.php?route=product/category&amp;path=18';">Laptops &amp; Notebooks</a></li></ul></li></ul></div></div></div></div></div></div></div></div></li>
+<li class='item-vertical' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=80' class='clearfix' >
+										<span><strong>
+											<i class='icon icon6'></i>Component
+										</strong></span>
+										 <span class='label'> </span>
+										</a></li>
+<li class='item-vertical' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=' class='clearfix' >
+										<span><strong>
+											<i class='icon icon7'></i>Headphone
+										</strong></span>
+										 <span class='label'> </span>
+										</a></li>
+<li class='item-vertical' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=57' class='clearfix' >
+										<span><strong>
+											<i class='icon icon8'></i>Sound Equidments
+										</strong></span>
+										 <span class='label'> </span>
+										</a></li>
+<li class='item-vertical' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=46' class='clearfix' >
+										<span><strong>
+											<i class='icon icon9'></i>Battereries &amp; Chargers
+										</strong></span>
+										 <span class='label'> </span>
+										</a></li>
+<li class='item-vertical' ><p class='close-menu'></p><a href='http://saad.local/index.php?route=product/category&amp;path=74' class='clearfix' >
+										<span><strong>
+											<i class='icon icon10'></i>Game Box
+										</strong></span>
+										 <span class='label'> </span>
+										</a></li>
+					</ul>
+					<!-- </div> -->
+				</div>
+			</div>
+		</div>
+	</nav>
+	</div></div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var itemver =  10 ;
+		if(itemver <= $( ".vertical ul.megamenu >li" ).length)
+			$('.vertical ul.megamenu').append('<li class="loadmore"><i class="fa fa-plus-square-o"></i><span class="more-view"> More Categories</span></li>');
+		$('.horizontal ul.megamenu li.loadmore').remove();
+
+		var show_itemver = itemver-3 ;
+		$('ul.megamenu > li.item-vertical').each(function(i){
+			if(i>show_itemver){
+					$(this).css('display', 'none');
+			}
+		});
+		$(".megamenu .loadmore").click(function(){
+			if($(this).hasClass('open')){
+				$('ul.megamenu li.item-vertical').each(function(i){
+						if(i>show_itemver){
+								$(this).slideUp(200);
+								$(this).css('display', 'none');
+						}
+				});
+				$(this).removeClass('open');
+				$('.loadmore').html('<i class="fa fa-plus-square-o"></i><span class="more-view">More Categories</span>');
+			}else{
+				$('ul.megamenu li.item-vertical').each(function(i){
+						if(i>show_itemver){
+								$(this).slideDown(200);
+						}
+				});
+				$(this).addClass('open');
+				$('.loadmore').html('<i class="fa fa-minus-square-o"></i><span class="more-view">Close Categories</span>');
+			}
+		});
+	});
+</script>
